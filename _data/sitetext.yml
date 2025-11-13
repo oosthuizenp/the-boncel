@@ -172,9 +172,9 @@ team:
       role: "Property Finance Specialist"
       image: assets/img/team/Bradley Burczak.jpg
       social:
-        - url: tel:082 414 1865
+        - url: tel:084 686 6089
           icon: fas fa-phone
-        - url: mailto:zelda.weaver@evogroup.co.za?subject=The Bond Cellar Website Enquiry
+        - url: mailto:admin@thebondcellar.co.za?subject=The Bond Cellar Website Enquiry
           icon: fas fa-envelope
         #- url: https://www.facebook.com/profile.php?id=61580109487431
         #  icon: fab fa-facebook-f
