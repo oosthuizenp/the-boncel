@@ -31,7 +31,7 @@
   .client-logo-card {
     width: 100px;
     height: 100px;
-    background-color: #FFFFFF; // Pure white
+    background-color: #ffffff; // Pure white
     border-radius: 12px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
     margin: 10px;
@@ -49,12 +49,9 @@
     img {
       max-height: 50px;
       max-width: 80px;
-      filter: grayscale(100%); // Start muted
-      transition: filter 0.3s ease;
-
-      &:hover {
-        filter: grayscale(0%); // Full color on hover
-      }
+      /* Removed grayscale filter completely */
+      /* Images now display in full original color at all times */
+      transition: none; /* Optional: remove transition since no filter change */
     }
   }
 }
